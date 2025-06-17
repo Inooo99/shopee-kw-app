@@ -21,6 +21,7 @@ const Footer = () => {
               <a
                 href="https://www.facebook.com/ShopeeID"
                 target="_blank"
+                aria-label="Shopee Facebook"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500"
               >
@@ -29,6 +30,7 @@ const Footer = () => {
               <a
                 href="https://instagram.com/shopee_id"
                 target="_blank"
+                aria-label="Shopee Instagram"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500"
               >
@@ -37,6 +39,7 @@ const Footer = () => {
               <a
                 href="https://twitter.com/shopeeid"
                 target="_blank"
+                aria-label="Shopee Twitter"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500"
               >
@@ -45,6 +48,7 @@ const Footer = () => {
               <a
                 href="https://youtube.com/shopeeindonesia"
                 target="_blank"
+                aria-label="Shopee YouTube Channel"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-orange-500"
               >
@@ -91,14 +95,10 @@ const Footer = () => {
                 href="https://apps.apple.com/id/app/shopee-id-jual-beli-online/id959841443"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Download on the App Store"
                 className="bg-gray-700 p-3 rounded-lg flex items-center gap-3 hover:bg-blue-400 transition-colors"
               >
                 {/* --- UBAH SRC GAMBAR --- */}
-                <img
-                  src="src/assets/images/apple-logo.png"
-                  alt="App Store"
-                  className="w-8 h-8"
-                />
                 <div>
                   <p className="text-xs">Download on the</p>
                   <p className="text-lg font-semibold">App Store</p>
@@ -107,15 +107,11 @@ const Footer = () => {
               <a
                 href="https://play.google.com/store/apps/details?id=com.shopee.id"
                 target="_blank"
+                aria-label="Get it on Google Play"
                 rel="noopener noreferrer"
                 className="bg-gray-700 p-3 rounded-lg flex items-center gap-3 hover:bg-gray-400 transition-colors"
               >
                 {/* --- UBAH SRC GAMBAR --- */}
-                <img
-                  src="https://www.google.com/imgres?q=google%20play%20png&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F012%2F871%2F364%2Fnon_2x%2Fgoogle-play-store-download-button-in-white-colors-download-on-the-google-play-store-free-png.png&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F12871364-google-play-store-download-button-in-white-colors-download-on-the-google-play-store&docid=YHjWr02NrFZWDM&tbnid=T-UX3V2n083XUM&vet=12ahUKEwidqODJ6_iNAxXjzzgGHVeXNsYQM3oFCIQBEAA..i&w=1920&h=670&hcb=2&ved=2ahUKEwidqODJ6_iNAxXjzzgGHVeXNsYQM3oFCIQBEAA"
-                  alt="Google Play"
-                  className="w-8 h-8"
-                />
                 <div>
                   <p className="text-xs">Get it on</p>
                   <p className="text-lg font-semibold">Google Play</p>
