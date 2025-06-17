@@ -4,8 +4,8 @@ export const mockProducts: Product[] = [
   {
     id: 1,
     name: "iPhone Xs Max 128GB - Space Gray",
-    price: 3999000,
-    originalPrice: 4500000,
+    price: 3899000,
+    originalPrice: 4600000,
     isFlashSale: true,
     isShopeeMall: true,
     image: "https://images.pexels.com/photos/788946/pexels-photo-788946.jpeg",
