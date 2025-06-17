@@ -1,6 +1,8 @@
+// src/main.tsx - VERSI FINAL DENGAN BASENAME
+
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter } from "react-router-dom"; // <-- Impor BrowserRouter
+import { BrowserRouter } from "react-router-dom";
 import App from "./App.tsx";
 import "./index.css";
 import { AuthProvider } from "./context/AuthContext.tsx";
@@ -8,9 +10,8 @@ import { AuthProvider } from "./context/AuthContext.tsx";
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <AuthProvider>
-      <BrowserRouter>
-        {" "}
-        {/* <-- Bungkus App dengan BrowserRouter */}
+      {/* Tambahkan prop basename di sini */}
+      <BrowserRouter basename="/shopee-kw-app/">
         <App />
       </BrowserRouter>
     </AuthProvider>
