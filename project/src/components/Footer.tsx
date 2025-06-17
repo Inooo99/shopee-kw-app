@@ -112,7 +112,7 @@ const Footer = () => {
               >
                 {/* --- UBAH SRC GAMBAR --- */}
                 <img
-                  src="src/assets/images/google-play-logo.png"
+                  src="https://www.google.com/imgres?q=google%20play%20png&imgurl=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F012%2F871%2F364%2Fnon_2x%2Fgoogle-play-store-download-button-in-white-colors-download-on-the-google-play-store-free-png.png&imgrefurl=https%3A%2F%2Fwww.vecteezy.com%2Fpng%2F12871364-google-play-store-download-button-in-white-colors-download-on-the-google-play-store&docid=YHjWr02NrFZWDM&tbnid=T-UX3V2n083XUM&vet=12ahUKEwidqODJ6_iNAxXjzzgGHVeXNsYQM3oFCIQBEAA..i&w=1920&h=670&hcb=2&ved=2ahUKEwidqODJ6_iNAxXjzzgGHVeXNsYQM3oFCIQBEAA"
                   alt="Google Play"
                   className="w-8 h-8"
                 />
